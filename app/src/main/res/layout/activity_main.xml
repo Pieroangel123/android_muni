@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#505001">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/verde_pino"
+        android:fontFamily="@font/open_sans_light"
+        android:text="SISTEMA DE FISCALIZACIÓN SGA"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <EditText
+        android:id="@+id/username_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresar Usuario"
+        android:background="@color/white"
+        style="@style/EditTextRoundedBorderStyle"/>
+
+    <EditText
+        android:id="@+id/password_edittext"
+        style="@style/EditTextRoundedBorderStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingTop="40dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8c8377"
+        android:text="Ingresar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/mi_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="40dp"
+        android:src="@drawable/img" />
+
+</LinearLayout>
