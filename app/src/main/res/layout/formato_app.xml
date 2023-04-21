@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fontFamily="@font/open_sans_light"
+        android:text="FORMATO DE CONTROL DE FISCALIZACIÓN
+SERVICIO DE LIMPIEZA PÚBLICA"
+        android:textAlignment="center"
+        android:textColor="@color/verde_pino"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/verde_pino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_light"
+            android:text="1.UBICACIÓN  DE OCURRENCIA DE INCUMPLIMIENTO"
+
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Direccion :"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="INGRESE LA DIRECCIÓN"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="10dp">
+
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distrito:"
+            android:paddingRight="150dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Referencia:"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:layout_gravity="center">
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="Ingresa Distrito"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+        <View
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/rectangulo_background">
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:hint="Ingresa Referencia"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/verde_pino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_light"
+            android:text="2.DESCRIPCIÓN DE OCURRENCIA DE INCUMPLEMIENTO"
+
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actividad:"
+            android:paddingRight="140dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item:"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:layout_gravity="center">
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="Ingresa Actividad"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+        <View
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/rectangulo_background">
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:hint="Ingresa Item"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Ocurrencia del incumplimiento :"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="INGRESE EL INCUMPLIMIENTO"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="10dp">
+
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Penalidad :"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="INGRESE LA PENALIDAD"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="10dp">
+
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/verde_pino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_light"
+            android:text="3,OBSERvACIONES DE OCURRENCIA DEL INCUMPLIMIENTO"
+
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="INGRESE LA OCURRENCIA"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="10dp">
+
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/verde_pino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_light"
+            android:text="4.DATOS DEL SUPERVISOR DE LA EMPRESA OPERADORA DE RESIDUOS SÓLIDOS"
+
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombres:"
+            android:paddingRight="149dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellidos:"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:layout_gravity="center">
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="Ingresa Nombres"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+        <View
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/rectangulo_background">
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:hint="Ingresa Apellidos"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/open_sans_light"
+        android:text="Correo electrónico :"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:textStyle="bold">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="INGRESE EL CORREO ELECTRÓNICO"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="10dp">
+
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D.N.I:"
+            android:paddingRight="166dp"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teléfono:"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:layout_gravity="center">
+            <EditText
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:hint="Ingrese su D.N.I"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+        <View
+            android:layout_width="51dp"
+            android:layout_height="wrap_content"/>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/rectangulo_background">
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:hint="Ingrese su teléfono"
+                android:textColorHint="@color/white"
+                android:textSize="10dp">
+            </EditText>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/verde_pino">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans_light"
+            android:text="5. OBSERVACIONES DE CONFIGURACIÓN DE PENALIDAD"
+
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/rectangulo_background"
+            android:padding="5dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="INGRESE SUS OBSERVACIONES"
+                android:textColorHint="@color/white"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="10dp">
+
+            </EditText>
+        </FrameLayout>
+
+    </LinearLayout>
+    
+
+</LinearLayout>
+</ScrollView>
