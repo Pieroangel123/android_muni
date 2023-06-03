@@ -129,6 +129,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -150,6 +151,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -171,6 +173,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -198,6 +201,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -219,6 +223,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -240,6 +245,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -267,6 +273,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -288,6 +295,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -309,6 +317,7 @@
                         android:textSize="18sp" />
 
                     <CheckBox
+                        android:id="@+id/check9"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -329,6 +338,7 @@
                         android:textSize="18sp" />
 
                     <EditText
+                        android:id="@+id/edit_text2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -347,16 +357,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center">
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="40dp"
-            android:text="Grabar"/>
-
-
-    </LinearLayout>
+        android:gravity="center"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -364,12 +365,14 @@
         android:gravity="center">
 
         <Button
+            android:id="@+id/retroceder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="40dp"
             android:text="RETROCEDER"/>
 
         <Button
+            android:id="@+id/terminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"

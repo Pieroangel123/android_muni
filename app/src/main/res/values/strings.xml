@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string-array name="parques_array">
+        <item>Parque El Olivar</item>
+        <item>Parque Benemérita Guardia Civil</item>
+        <item>Parque Ernesto Alayza Grundy</item>
+    </string-array>
 </resources>

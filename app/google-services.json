@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "557380591631",
+    "project_id": "msis-d2976",
+    "storage_bucket": "msis-d2976.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557380591631:android:7cb05d89436df377f0c37a",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557380591631-nu1pjq2d6objbuu25gs5nl19dk9p8v9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb7TohDVBK55PzDDNgnq399Y-KrgzJBDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557380591631-nu1pjq2d6objbuu25gs5nl19dk9p8v9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

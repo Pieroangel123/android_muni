@@ -66,6 +66,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:padding="5dp">
 
             <EditText
+                android:id="@+id/edit_text1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="INGRESE LA DIRECCIÓN"
@@ -113,6 +114,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:background="@drawable/rectangulo_background"
             android:layout_gravity="center">
             <EditText
+                android:id="@+id/edit_text2"
                 android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:hint="Ingresa Distrito"
@@ -130,6 +132,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
 
             android:background="@drawable/rectangulo_background">
             <EditText
+                android:id="@+id/edit_text3"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:hint="Ingresa Referencia"
@@ -191,6 +194,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:background="@drawable/rectangulo_background"
             android:layout_gravity="center">
             <EditText
+                android:id="@+id/edit_text4"
                 android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:hint="Ingresa Actividad"
@@ -208,6 +212,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
 
             android:background="@drawable/rectangulo_background">
             <EditText
+                android:id="@+id/edit_text5"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:hint="Ingresa Item"
@@ -239,6 +244,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:padding="5dp">
 
             <EditText
+                android:id="@+id/edit_text6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="INGRESE EL INCUMPLIMIENTO"
@@ -275,6 +281,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:padding="5dp">
 
             <EditText
+                android:id="@+id/edit_text7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="INGRESE LA PENALIDAD"
@@ -320,6 +327,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:padding="5dp">
 
             <EditText
+                android:id="@+id/edit_text8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="INGRESE LA OCURRENCIA"
@@ -386,6 +394,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:background="@drawable/rectangulo_background"
             android:layout_gravity="center">
             <EditText
+                android:id="@+id/edit_text9"
                 android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:hint="Ingresa Nombres"
@@ -403,6 +412,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
 
             android:background="@drawable/rectangulo_background">
             <EditText
+                android:id="@+id/edit_text10"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:hint="Ingresa Apellidos"
@@ -434,6 +444,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:padding="5dp">
 
             <EditText
+                android:id="@+id/edit_text11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="INGRESE EL CORREO ELECTRÓNICO"
@@ -481,6 +492,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:background="@drawable/rectangulo_background"
             android:layout_gravity="center">
             <EditText
+                android:id="@+id/edit_text12"
                 android:layout_width="120dp"
                 android:layout_height="40dp"
                 android:hint="Ingrese su D.N.I"
@@ -498,6 +510,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
 
             android:background="@drawable/rectangulo_background">
             <EditText
+                android:id="@+id/edit_text13"
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:hint="Ingrese su teléfono"
@@ -538,6 +551,7 @@ SERVICIO DE LIMPIEZA PÚBLICA"
             android:padding="5dp">
 
             <EditText
+                android:id="@+id/edit_text14"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="INGRESE SUS OBSERVACIONES"
@@ -551,7 +565,30 @@ SERVICIO DE LIMPIEZA PÚBLICA"
         </FrameLayout>
 
     </LinearLayout>
-    
+    <Button
+        android:id="@+id/tomar_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:text="Tomar Foto"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <Spinner
+            android:id="@+id/my_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingTop="30dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/terminar_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:text="Terminar"/>
 </LinearLayout>
 </ScrollView>
